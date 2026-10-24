@@ -6,7 +6,7 @@
 //    placeholders below), so every published build gets a fresh cache and old ones are deleted when it activates.
 //  - A new worker does not take over by itself while an older one controls an open tab: the page can show
 //    "UPDATE READY - RELOAD" and post {type:'SKIP_WAITING'} to switch (see docs/PUBLISHING.md).
-const BUILD = "b27ce8e-20261014";
+const BUILD = "006e6fd-20261024";
 const CACHE = 'frostfall-' + BUILD;
 const PRECACHE = ['./', 'index.html'].concat(["manifest.webmanifest","icon-192.png","icon-512.png","apple-touch-icon.png"]);
 const NET_TIMEOUT = 4000;
